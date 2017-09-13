@@ -24,6 +24,8 @@ SOFTWARE.
 #ifndef PINE64_GPIO_H
 #define PINE64_GPIO_H
 
+#include <stdint.h>
+
 #define BCM2708_PERI_BASE_DEFAULT   0x20000000
 #define BCM2709_PERI_BASE_DEFAULT   0x3f000000
 #define GPIO_BASE_OFFSET            0x200000
