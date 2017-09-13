@@ -10,5 +10,5 @@ clean:
 %.o: %.cpp
 	g++ -Wall -c -o $@ $^
 
-libpine64.a: gpio.o i2c.o spi.o
+libpine64++.a: gpio.o i2c.o spi.o
 	ar rcs $@ $^
